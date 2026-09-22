@@ -1,0 +1,21 @@
+{
+  "name": "elitea-sample-node-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js application for EliteA testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
